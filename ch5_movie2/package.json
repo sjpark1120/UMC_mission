@@ -40,7 +40,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://sjpark1120.github.io/UMC_movie",
   "devDependencies": {
     "eslint": "^8.52.0",
     "eslint-plugin-react": "^7.33.2"
