@@ -1,0 +1,110 @@
+* {
+  font-family: 'NanumBarunGothicExtraLight';
+}
+
+html{
+  background-color: black;
+}
+
+body{
+  background-image: url("UMC\ 뭔가\ 간지나는\ 배경1\ 2.svg");
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title{
+  font-family: 'NanumBarunGothic';
+  text-align: center;
+  font-size: 38px;
+  width: 300px;
+  border-bottom: white solid 1px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  padding-bottom: 22px;
+}
+
+#signup_container{
+  display: flex;
+  background-color: #d4d7e9a6;
+  width: 43%;
+  height: 77%;
+  border-radius: 15px;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+#form{
+}
+
+input{
+  width: 250px;
+  height: 20px;
+  background-color: transparent;
+  border: white solid 1px;
+  border-radius: 5px;
+  color: white;
+}
+
+.check_text{
+  font-size: 12px;
+  height: 15px;
+  margin-bottom: 10px;
+}
+
+label{
+  display: block;
+  color: white;
+}
+
+#submit_btn{
+  width: 250px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(175, 175, 175);
+  font-size: 20px;
+  color: white;
+  margin-top: 17px;
+}
+
+#wrap_modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px 15px;
+  border-radius: 8px;
+  width: 350px;
+}
+
+#modal_title {
+  font-size: 23px;
+  font-weight: 900;
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+
+#exit_btn {
+  margin-left: 270px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0px 0px 8px 0px gray;
+  border: none;
+}

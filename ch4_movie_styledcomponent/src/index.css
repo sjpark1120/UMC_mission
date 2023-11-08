@@ -1,0 +1,50 @@
+body{
+  background-color: rgb(39, 48, 79);
+}
+
+.list_container{
+  text-align: center;
+}
+
+/*.movie_container{
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.099);
+  height: 340px;
+  width: 200px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.title_container{
+    color: white;
+    display: flex;
+    height: 35px;
+    align-items: center;
+    font-size: 12px;
+    justify-content: space-around;
+}
+
+.movie_overview{
+  position: absolute;
+  top: 0;
+  height: 340px;
+  width: 200px;
+  background-color: #0000008f;
+  color: white;
+  border-radius: 5px;
+  display: none;
+}
+
+.overview_text{
+  height: 176px;
+  overflow: hidden;
+  padding: 0px 13px;
+}
+
+.movie_container:hover{
+  .movie_overview{
+    display: block;
+  }
+} */

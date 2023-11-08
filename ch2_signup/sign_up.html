@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-barun-gothic.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" />
+  <title>UMC 회원가입</title>
+</head>
+<body>
+  <div id="signup_container">
+    <h1 id="title">회원 가입</h1>
+    <form id="form">
+      <label for="input_name">이름</label>
+      <input id="input_name"/>
+      <div id="name_check" class="check_text"></div>
+
+      <label for="input_nickname">닉네임</label>
+      <input id="input_nickname"/>
+      <div id="nickname_check" class="check_text"></div>
+
+      <label for="input_email">이메일</label>
+      <input id="input_email"/>
+      <div id="email_check" class="check_text"></div>
+      
+      <label for="input_password">비밀번호</label>
+      <input id="input_password" type="password"/>
+      <div id="password_check" class="check_text"></div>
+
+      <label for="input_checkpassword">비밀번호 확인</label>
+      <input id="input_checkpassword" type="password"/>
+      <div id="checkpassword_check" class="check_text"></div>
+
+      <input type="submit" value="가입하기" disabled='disabled' id="submit_btn"/>
+    </form>
+  </div>
+  <div id="wrap_modal">
+    <div class="modal">
+      <div id="modal_title">가입성공!</div>
+      <p>umc 챌린저 가입을 축하합니다!!</p>
+      <button id="exit_btn">닫기</button>
+    </div>
+  </div>
+</body>
+<script src="main.js"></script>
+</html>

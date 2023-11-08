@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'NanumBarunGothic';
+}
+
+html{
+  background-color: black;
+}
+body{
+  background-image: url("UMC\ 뭔가\ 간지나는\ 배경1\ 2.svg");
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login_container{
+  display: flex;
+  background-color: #d4d7e9a6;
+  width: 47%;
+  height: 57%;
+  border-radius: 15px;
+
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#login_text{
+  text-align: center;
+  font-size: 50px;
+  border-bottom: solid rgba(255, 255, 255, 0.7) 1px;
+  width: 293px;
+}
+
+.input {
+  font-family: 'NanumBarunGothicExtraLight';
+  border: none;
+  background: transparent;
+  display: block;
+  border-bottom: solid rgba(255, 255, 255, 0.5) 1px;
+  font-size: 15px;
+  width: 212px;
+  font-weight: 100;
+  margin-top: 40px;
+}
+
+.input::placeholder{
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#login_btn{
+  border: none;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: rgb(53, 53, 53);
+  width: 212px;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.btn{
+  border: none;
+  text-decoration: none;
+  background: transparent;
+}
+
+#signup{
+  border-right: solid black 1px;
+  padding-right: 20px;
+  margin-right: 20px;
+}
