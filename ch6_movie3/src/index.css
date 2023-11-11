@@ -63,6 +63,7 @@
   margin-right: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .title_container{
@@ -100,3 +101,39 @@
     display: block;
   }
 } */
+
+
+/* not_found 페이지 */
+.not_found{
+  margin-top: 70px;
+  margin-left: 200px;
+}
+
+.not_found_text{
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.go_main{
+  text-decoration: none;
+  color: red;
+}
+
+/* moviedetail페이지 */
+.movie_detail_container{
+  margin-top: 70px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.movie_detail_title{
+  display: inline;
+  margin-right: 20px;
+}
+.movie_detail_img{
+  display: block;
+  margin-bottom: 10px;
+}
+.movie_detail_text{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
