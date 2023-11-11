@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navigation{
+  background-color: rgb(39, 48, 79);
+  padding: 15px 0;
+
+}
+
+.logo_img{
+  margin-left: 200px;
+}
+
+.nav_ul{
+  display: inline;
+}
+
+.nav_ul a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav_ul li{
+  display: inline;
+  margin-left: 20px;
+}
+
+.login_btn{
+ border: none;
+ background-color: white;
+ border-radius: 20px;
+ width: 70px;
+ height: 25px;
+ margin-left: 20px;
+ margin-right: 10px;
+ cursor: pointer;
+}
+
+.login_text{
+  color: white;
+}
+
+.app-container{
+  display: flex;
+  justify-content: center;
+}
+
+.list_container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 88%;
+}
+
+.movie_container{
+  position: relative;
+  background-color: rgb(37, 39, 61);
+  height: 340px;
+  width: 200px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.title_container{
+    color: white;
+    display: flex;
+    height: 35px;
+    align-items: center;
+    font-size: 12px;
+    justify-content: space-around;
+}
+
+.movie_overview{
+  position: absolute;
+  top: 0;
+  height: 340px;
+  width: 200px;
+  background-color: #0000008f;
+  color: white;
+  border-radius: 5px;
+  display: none;
+}
+
+.movie_overview h4{
+  padding: 10px 13px;
+}
+
+.overview_text{
+  height: 176px;
+  overflow: hidden;
+  padding: 0px 13px;
+}
+
+/* .movie_container:hover{
+  .movie_overview{
+    display: block;
+  }
+} */
+
+
+/* not_found 페이지 */
+.not_found{
+  margin-top: 70px;
+  margin-left: 200px;
+}
+
+.not_found_text{
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.go_main{
+  text-decoration: none;
+  color: red;
+}
+
+/* moviedetail페이지 */
+.movie_detail_container{
+  margin-top: 70px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 2px solid gray;
+  border-radius: 20px;
+  padding: 24px;
+}
+.movie_detail_title{
+  display: inline;
+  margin-right: 20px;
+}
+.movie_detail_img{
+  display: block;
+  margin-bottom: 10px;
+}
+.movie_detail_text{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.goback_btn{
+  color: white;
+  height: 35px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(39, 48, 79);
+}
+
+/* 로그인페이지 */
+.login_container{
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  padding: 20px;
+  border: 2px solid gray;
+  border-radius: 20px;
+}
+.login_title{
+  margin-bottom: 20px;
+}
+.login_label{
+  font-size: small;
+}
+.login_input{
+  display: block;
+  width: 700px;
+  font-size: 17px;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: 1px gray solid;
+}
+.check_text{
+  color: red;
+  margin-bottom: 20px;
+}
+.loginpage_btn{
+  margin-top: 10px;
+  background-color: #adadad8f;
+  color: white;
+  border-radius: 20px;
+  width: 350px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+.loginpage_btn:enabled{
+  background-color: rgb(39, 48, 79);
+}
