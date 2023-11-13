@@ -1,5 +1,5 @@
 import React from 'react'
-import adimg from '../ad.svg'
+import adimg from '../image/ad.svg'
 function Ad({ adflag }) {
   return (
     <>
