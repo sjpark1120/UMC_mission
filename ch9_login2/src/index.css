@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.login_container{
+  border: 1px black solid;
+  width: 300px;
+  height: 150px;
+  position:absolute;
+  left:50%;
+  top:50%;
+  margin-left:-150px;
+  margin-top:-200px;
+  text-align: center;
+}
+
+.id_label{
+  width: 64px;
+  display: inline-block;
+}
+
+.btn{
+  background-color: rgb(111, 111, 111);
+  border: none;
+  color: white;
+  width: 150px;
+  height: 25px;
+  border-radius: 7px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn:enabled{
+  background-color: rgb(93, 150, 58);
+}
+
+.loading{
+  font-size: 10px;
+  height: 10px;
+}
+
+.welcome{
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
