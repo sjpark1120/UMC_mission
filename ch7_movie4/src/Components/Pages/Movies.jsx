@@ -8,7 +8,7 @@ function Movies() {
   const options = {
     method: 'GET',
     url: 'https://api.themoviedb.org/3/trending/movie/week',
-    params: {language: 'ko', page: '1'},
+    params: {language: 'ko'},
     headers: {
       accept: 'application/json',
       Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxNGIyNDI3NGMwM2RiYWE3YjI1M2UwZmQyYTMwZTc1OSIsInN1YiI6IjY1MjAyN2Y5M2QzNTU3MDBhZGI2MTc2OCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.3IY1FfMm4yPKRXWZQ02B3r2-uNRiV3-dT-wf1XkBano'
@@ -42,7 +42,7 @@ function Movies() {
   } 
 
   return (
-    <div className="app-container">
+    <div className="app-container">   
       <div className="list_container">
         {
           movieList &&

@@ -7,7 +7,7 @@ function Celebirity() {
   const [movieList, setMovieList] = useState('');
   const options = {
     method: 'GET',
-    url: 'https://api.themoviedb.org/3/trending/person/week',
+    url: 'https://api.themoviedb.org/3/trending/person/day',
     params: {language: 'ko', page: '1'},
     headers: {
       accept: 'application/json',

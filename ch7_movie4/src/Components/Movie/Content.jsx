@@ -2,7 +2,7 @@ function Movie({ title, poster, vote, overview }) {
     return (
       <>
         <div className="movie_container">
-          <img className="content_img" src={poster} alt={title} width="200px" height="300px"/>
+          <img className="content_img" src={poster} alt={title}/>
           <div className="title_container">
             <div>{title}</div>
             <div>{vote}</div>
